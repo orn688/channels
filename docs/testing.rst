@@ -356,7 +356,7 @@ Now use ``ChannelLiveServerTestCase`` for your acceptance tests.
 
 In the test above Daphne and Channels worker processes were fired up.
 These processes run your project against the test database and the
-default channel layer you spacify in the settings.  If channel layer
+default channel layer you specify in the settings.  If channel layer
 support ``flush`` extension, initial cleanup will be done.  So do not
 run this code against your production environment. 
 ChannelLiveServerTestCase can not be used with in memory databases.
